@@ -29,11 +29,11 @@
                 Console.WriteLine("2. Visa inventarie");
 
                 Console.WriteLine("3. Ta bort en produkt");
-
-                Console.WriteLine("5. Avsluta");
                 Console.WriteLine("4 Sök på produkt");
 
-                Console.WriteLine("3. Avsluta");
+                Console.WriteLine("5. Avsluta");
+
+                
 
 
 
