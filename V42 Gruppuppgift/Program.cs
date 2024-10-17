@@ -56,7 +56,7 @@
 
                     default:
 
-                        Console.WriteLine("Ogiltigt val. Försök igen.");
+                        Console.WriteLine("Ogiltigt val. Försök igen..");
 
                         break;
 
