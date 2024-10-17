@@ -85,6 +85,19 @@
         {
             Console.WriteLine("Sök i product");
             String sökval = Console.ReadLine();
+            int productNr = 1;
+            foreach (var product in inventory)
+            {
+                if (product.Contains(sökval))
+                {
+                    
+                    Console.WriteLine($"{product}: {product}");
+                    productNr++;
+                    break;
+                }
+            }
+            Console.WriteLine("Inga producter hittades");
+
         }
 
     }
