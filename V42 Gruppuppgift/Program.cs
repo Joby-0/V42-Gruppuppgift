@@ -59,11 +59,15 @@
 
                         TaBortProdukt();
 
-                        return;
+                        break;
                     case "4":
                         SökProduct();
                         break;
-                        
+
+                    case "5":
+
+                        return;
+
                     default:
 
                         Console.WriteLine("Ogiltigt val. Försök igen.");
@@ -72,6 +76,7 @@
 
                 }
 
+                Console.Clear();
             }
 
         }
