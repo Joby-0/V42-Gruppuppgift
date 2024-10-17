@@ -70,7 +70,7 @@
 
         {
 
-            // TODO: Implementera metod för att lägga till produkt
+            Console.WriteLine("Lägg till produkt");
 
         }
 
