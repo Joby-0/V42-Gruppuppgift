@@ -81,6 +81,11 @@
             // TODO: Implementera metod för att visa inventarie
 
         }
+        static void SökProduct()
+        {
+            Console.WriteLine("Sök i product");
+            String sökval = Console.ReadLine();
+        }
 
     }
 
