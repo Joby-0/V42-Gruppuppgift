@@ -28,6 +28,8 @@
 
                 Console.WriteLine("2. Visa inventarie");
 
+                Console.WriteLine("4 Sök på produkt");
+
                 Console.WriteLine("3. Avsluta");
 
 
@@ -53,7 +55,10 @@
                     case "3":
 
                         return;
-
+                    case "4":
+                        SökProduct();
+                        break;
+                        
                     default:
 
                         Console.WriteLine("Ogiltigt val. Försök igen.");
