@@ -71,7 +71,8 @@
         {
 
             Console.WriteLine("Lägg till produkt");
-
+            string produkt = Console.ReadLine();
+            inventory.Add(produkt);
         }
 
         static void VisaInventarie()
