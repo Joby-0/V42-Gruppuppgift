@@ -81,9 +81,11 @@
         static void VisaInventarie()
 
         {
+            foreach (string produkt in inventory)
+            {
+                Console.WriteLine(produkt);
 
-            // TODO: Implementera metod för att visa inventarie
-
+            }
         }
 
         static void TaBortProdukt()
