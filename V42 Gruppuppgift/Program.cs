@@ -28,7 +28,9 @@
 
                 Console.WriteLine("2. Visa inventarie");
 
-                Console.WriteLine("3. Avsluta");
+                Console.WriteLine("3. Ta bort en produkt");
+
+                Console.WriteLine("5. Avsluta");
 
 
 
@@ -51,6 +53,8 @@
                         break;
 
                     case "3":
+
+                        TaBortProdukt();
 
                         return;
 
@@ -82,6 +86,18 @@
 
         }
 
+        static void TaBortProdukt()
+        {
+            Console.Write("Vilken produkt vill du ta bort? ");
+            string sökord = Console.ReadLine();
+
+            bool harSökord = inventory.Contains(sökord);
+            
+            if (harSökord)
+            {
+                inventory.Remove(sökord);
+            }
+        }
     }
 
 }
